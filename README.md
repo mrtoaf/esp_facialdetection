@@ -1,5 +1,7 @@
 # esp_facialrecognition
-Facial recognition example for ESP Biometrics week
+Facial recognition example for ESP Biometrics week 
+
+
 
 Mac Instructions
 install Python by typing 'brew install python'
