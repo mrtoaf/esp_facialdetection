@@ -37,7 +37,7 @@ while True:
 
     cv2.imshow("Faces", frame)
 
-    if cv2.waitKey(1) == ord("q"):
+    if cv2.waitKey(50) == ord("q"):
         break
 
 camera.release()
