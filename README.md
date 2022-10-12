@@ -1,5 +1,5 @@
-# esp_facialrecognition
-Facial recognition example for ESP Biometrics week 
+# esp_facialdetection
+Facial detection example for ESP Biometrics week 
 
 
 
