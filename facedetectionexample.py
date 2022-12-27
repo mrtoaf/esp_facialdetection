@@ -45,5 +45,5 @@ camera.release()
 cv2.destroyAllWindows()
 
 
-#bruh
+
 
