@@ -15,5 +15,3 @@ run the program by typing 'python3 facialdetectionexample.py'
   
 quit the program by pressing 'q' on your keyboard. 
 
-
-one piece sux

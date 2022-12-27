@@ -15,7 +15,7 @@ clf = cv2.CascadeClassifier(str(cascade_path))
 # set up the default camera (0) i hope this is the webacam lmaoo
 camera = cv2.VideoCapture(0)
 
-this is a test
+
 
 while True:
     # screencap!
