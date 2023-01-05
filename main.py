@@ -5,20 +5,31 @@ import numpy as np
 app=Flask(__name__)
 camera = cv2.VideoCapture(0)
 # Load a sample picture and learn how to recognize it.
-christopher_image = face_recognition.load_image_file("C:./photo_examples/ChrisP/csp.jpeg")
+christopher_image = face_recognition.load_image_file("photo_examples/ChrisP/csp.jpeg")
 christopher_face_encoding = face_recognition.face_encodings(christopher_image)[0]
 
-josh_image = face_recognition.load_image_file("C:./photo_examples/JoshL/josh.jpg")
+josh_image = face_recognition.load_image_file("photo_examples/JoshL/josh.jpg")
 josh_face_encoding = face_recognition.face_encodings(josh_image)[0]
+
+alex_image = face_recognition.load_image_file("photo_examples/AlexWF/alex.jpeg")
+alex_face_encoding = face_recognition.face_encodings(alex_image)[0]
+
+merlock_image = face_recognition.load_image_file("photo_examples/Merlock/merlock.jpg")
+merlock_face_encoding = face_recognition.face_encodings(merlock_image)[0]
 
 # Create arrays of known face encodings and their names
 known_face_encodings = [
     christopher_face_encoding,
-    josh_face_encoding
+    josh_face_encoding,
+    alex_face_encoding,
+    merlock_face_encoding
+
 ]
 known_face_names = [
-    "Christopher",
-    "Josh"
+    "Chris P",
+    "Josh",
+    "Alex",
+    "Chris M"
 ]
 # Initialize some variables
 face_locations = []
